@@ -1,7 +1,7 @@
 {
-  "name": "harp-heroku-boilerplate",
+  "name": "harp-personal",
   "version": "1.0.0",
-  "description": "A boilerplate for setting up Harp web server with Heroku!",
+  "description": "My personal website written using Harp web server and deployed with Heroku!",
   "main": "index.js",
   "scripts": {
     "serve": "harp server --port $PORT",
@@ -10,20 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pschfr/harp-heroku-boilerplate.git"
+    "url": "git+https://github.com/pschfr/harp-personal.git"
   },
   "keywords": [
     "harp",
     "harpjs",
-    "harp-boilerplate",
     "heroku"
   ],
   "author": "Paul Schaefer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pschfr/harp-heroku-boilerplate/issues"
+    "url": "https://github.com/pschfr/harp-personal/issues"
   },
-  "homepage": "https://github.com/pschfr/harp-heroku-boilerplate#readme",
+  "homepage": "https://github.com/pschfr/harp-personal#readme",
   "dependencies": {
     "harp": "^0.29.0"
   }
