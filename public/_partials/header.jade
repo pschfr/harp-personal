@@ -1,0 +1,14 @@
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+	a(href="#{process.env.PROJECT_ROOT || '/'}" class="navbar-brand")= title
+	button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigaton")
+		span.navbar-toggler-icon
+	.collapse.navbar-collapse#navbarSupportedContent
+		ul.navbar-nav.mr-auto
+			li.nav-item.active
+				a(href="#{process.env.PROJECT_ROOT || '/'}" class="nav-link") Home
+					.sr-only (current)
+			li.nav-item.dropdown
+				a(href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false") Dropdown
+				div(class="dropdown-menu" aria-labelledby="navbarDropdown")
+					a(href="#" class="dropdown-item") Action
+					a(href="#" class="dropdown-item") Another action
