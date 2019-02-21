@@ -2,9 +2,8 @@
 const path = require('path');
 const webpack = require('webpack');
 
-// Webpack settings go here
+// Common Webpack settings go here
 module.exports = {
-	mode: 'development',
 	// Input file
 	entry: './public/_js/index.js',
 	// Output bundle location
