@@ -4,8 +4,9 @@
   "description": "My personal website written using Harp web server and deployed with Travis and GitHub Pages!",
   "main": "index.js",
   "scripts": {
-    "serve": "harp server --port $PORT",
-    "build": "harp compile",
+    "serve": "webpack; harp server --port $PORT",
+    "build": "webpack; harp compile",
+    "webpack": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +18,8 @@
     "harpjs",
     "travis",
     "github-pages",
-    "bootstrap"
+    "bootstrap",
+    "webpack"
   ],
   "author": "Paul Schaefer",
   "license": "MIT",
@@ -27,6 +29,13 @@
   "homepage": "https://github.com/pschfr/harp-personal#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "harp": "^0.29.0"
+    "harp": "^0.29.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7",
+    "webpack": "^4.29.5"
+  },
+  "devDependencies": {
+    "exports-loader": "^0.7.0",
+    "webpack-cli": "^3.2.3"
   }
 }
