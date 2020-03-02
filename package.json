@@ -39,7 +39,7 @@
     "harp": "^0.30.0",
     "jquery": "^3.4.0",
     "popper.js": "^1.14.7",
-    "webpack": "^4.29.5",
+    "webpack": "^4.42.0",
     "webpack-merge": "^4.2.1"
   },
   "devDependencies": {
