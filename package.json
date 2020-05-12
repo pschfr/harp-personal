@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/pschfr/harp-personal#readme",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.0",
     "concurrently": "^4.1.0",
     "harp": "^0.30.0",
     "jquery": "^3.4.0",
